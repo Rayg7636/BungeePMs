@@ -1,0 +1,4 @@
+# Project exclude paths
+/BungeePMsBukkit/target/
+/BungeePMsBungee/target/
+/target/
