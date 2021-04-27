@@ -18,7 +18,7 @@ public class MessageCommand extends Command implements TabExecutor {
     private final BungeePMBungeePlugin plugin;
 
     public MessageCommand(BungeePMBungeePlugin plugin) {
-        super("message", "bungeepm.message", "msg", "m", "tell");
+        super("message", "bungeepm.message", "msg", "m", "tell", "w");
         this.setPermissionMessage(LocaleManager.msg("commands.noPermission"));
         this.plugin = plugin;
     }

@@ -7,6 +7,7 @@ import net.md_5.bungee.api.ProxyServer;
 import net.md_5.bungee.api.chat.TextComponent;
 import net.md_5.bungee.api.connection.ProxiedPlayer;
 
+import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 public class MessageManager {
@@ -24,7 +25,7 @@ public class MessageManager {
 
 
     public void sendMessage(CommandSender sender, ProxiedPlayer targetPlayer, String messageContent) {
-        messageContent = messageContent.trim();
+        messageContent = Matcher.quoteReplacement(messageContent.trim());
 
         String messageWithoutColor = stripColor(messageContent);
 
@@ -66,7 +67,11 @@ public class MessageManager {
 
         ProxyServer.getInstance().getConsole().sendMessage(TextComponent.fromLegacyText(formattedSocialSpyMessage));
 
-        if (sender instanceof ProxiedPlayer)
-            plugin.getReplyManager().setLastMessenger(targetPlayer, (ProxiedPlayer) sender);
+        if (sender instanceof ProxiedPlayer) {
+            ProxiedPlayer playerSender = (ProxiedPlayer) sender;
+
+            plugin.getReplyManager().setLastMessenger(targetPlayer, playerSender);
+            plugin.getReplyManager().setLastMessenger(playerSender, targetPlayer);
+        }
     }
 }
