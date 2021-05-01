@@ -47,7 +47,7 @@ bungeePM:
 
 
 messages_en.properties
-```yaml
+```
 #Note that properties files doesn't directly support accented characters.
 #Please use this tool: https://www.branah.com/unicode-converter if you want to use them.
 #You put your accented character in "Unicode Text" then you copy the "UTF-16" result, it's the one you will past in the language file.
