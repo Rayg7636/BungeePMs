@@ -1,7 +1,7 @@
 name: ${project.name}
 main: fr.keke142.bungeepm.bukkit.BungeePMBukkitPlugin
-version: ${parent.project.version}
+version: ${parent.version}
 author: keke142
 commands:
   msg:
-  tell:
+    aliases: [tell, w]

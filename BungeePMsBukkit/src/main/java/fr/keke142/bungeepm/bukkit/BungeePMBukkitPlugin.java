@@ -7,7 +7,5 @@ public class BungeePMBukkitPlugin extends JavaPlugin {
     @Override
     public void onEnable() {
         getCommand("msg").setExecutor(new EmptyCommand());
-        getCommand("tell").setExecutor(new EmptyCommand());
-        getCommand("w").setExecutor(new EmptyCommand());
     }
 }
