@@ -11,7 +11,7 @@ In order to **override Minecraft autocompletion** on **/msg**, **/tell** and **/
 
 ## Commands:
 
-- **/msg, /m, /w, /message <player> <message>** : Send a private message to another player.
+- **/msg, /m, /w, /message \<player> \<message>** : Send a private message to another player.
 - **/r, /reply <message>**  : Send a private message to the last player that sent you a private message.
 - **/socialspy (<player>)**  : Enable or disable message spying for you or another player.
 
