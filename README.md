@@ -11,9 +11,9 @@ In order to override Minecraft autocompletion on /msg and /tell commands and hav
 
 Commands:
 
-    /msg, /m, /w, /message <player> <message> : Send a private message to another player.
-    /r, /reply <message>  : Send a private message to the last player that sent you a private message.
-    /socialspy (<player>)  : Enable or disable message spying for you or another player.
+- /msg, /m, /w, /message <player> <message> : Send a private message to another player.
+- /r, /reply <message>  : Send a private message to the last player that sent you a private message.
+- /socialspy (<player>)  : Enable or disable message spying for you or another player.
 
 
 Permissions (They are all BUNGEECORD permissions):
