@@ -34,18 +34,21 @@ FAQ:
 Configuration & Default language file:
 
 config.yml:
-[code=YAML]bungeePM:
+```yaml
+bungeePM:
   #This value is used to name the language file. You need to use a VALID BCP 47 Language Code.
   #You can get a list of BCP 47 Language Codes at: https://appmakers.dev/bcp-47-language-codes-list/
   #Languaqges already translated by default: en-US, fr-FR
   languageTag: 'en-US'
   messageSenderFormat: '&6You &8-> &6{receiver} &8» &r{message}'
   messageReceiverFormat: '&6{sender} &8-> &6You &8» &r{message}'
-  socialSpyFormat: '&8[&c&lSPY&8] &6{sender} &8-> &6{receiver} &8» &r{message}'[/code]
+  socialSpyFormat: '&8[&c&lSPY&8] &6{sender} &8-> &6{receiver} &8» &r{message}'
+```
 
 
 messages_en.properties
-[code]#Note that properties files doesn't directly support accented characters.
+```yaml
+#Note that properties files doesn't directly support accented characters.
 #Please use this tool: https://www.branah.com/unicode-converter if you want to use them.
 #You put your accented character in "Unicode Text" then you copy the "UTF-16" result, it's the one you will past in the language file.
 
@@ -62,5 +65,6 @@ commands.socialspy.enabled=&eYou have &6enabled &eSocialSpy.
 commands.socialspy.disabled=&eYou have &6disabled &eSocialSpy.
 commands.socialspy.others.enabled=&eYou have &6enabled &eSocialSpy for &6{0}&e.
 commands.socialspy.others.disabled=&eYou have &6disabled &eSocialSpy for &6{0}&e.[/code]
+```
 
 
