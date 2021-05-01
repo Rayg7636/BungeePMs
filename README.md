@@ -18,11 +18,11 @@ In order to **override Minecraft autocompletion** on **/msg**, **/tell** and **/
 
 ## Permissions (They are all BUNGEECORD permissions):
 
-- bungeepm.message : Allow the use of /msg, /m, /message
-- bungeepm.reply : Allow the use of /r, /reply
-- bungeepm.socialspy :  Allow the use of /socialspy
-- bungeepm.socialspy.others : Allow the use of /socialspy <player>
-- bungeepm.chatcolor : Allow the use of colors in privates messages
+- **bungeepm.message** : Allow the use of /**msg, /m, /message, /w**
+- **bungeepm.reply** : Allow the use of **/r, /reply**
+- **bungeepm.socialspy** :  Allow the use of /**socialspy**
+- **bungeepm.socialspy.others** : Allow the use of **/socialspy <player>**
+- **bungeepm.chatcolor** : Allow the use of **colors in privates messages**
 
 
 ## FAQ:
