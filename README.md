@@ -18,17 +18,17 @@ Commands:
 
 Permissions (They are all BUNGEECORD permissions):
 
-    bungeepm.message : Allow the use of /msg, /m, /message
-    bungeepm.reply : Allow the use of /r, /reply
-    bungeepm.socialspy :  Allow the use of /socialspy
-    bungeepm.socialspy.others : Allow the use of /socialspy <player>
-    bungeepm.chatcolor : Allow the use of colors in privates messages
+- bungeepm.message : Allow the use of /msg, /m, /message
+- bungeepm.reply : Allow the use of /r, /reply
+- bungeepm.socialspy :  Allow the use of /socialspy
+- bungeepm.socialspy.others : Allow the use of /socialspy <player>
+- bungeepm.chatcolor : Allow the use of colors in privates messages
 
 
 FAQ:
 
-    Are the socialspy players saved when the server restart ? : Yes they are. BungeePMs uses a SQLite DB File to saves all the players with socialspy enabled.
-    Why the jar file is so big ? : It's simply because SQLite is shaded into the jar at compilation because bungeecord does not provide this one by default. Actually the plugin in itself is not more than 30kb and is extremely lightweight.
+- Are the socialspy players saved when the server restart ? : Yes they are. BungeePMs uses a SQLite DB File to saves all the players with socialspy enabled.
+- Why the jar file is so big ? : It's simply because SQLite is shaded into the jar at compilation because bungeecord does not provide this one by default. Actually the plugin in itself is not more than 30kb and is extremely lightweight.
 
 
 Configuration & Default language file:
