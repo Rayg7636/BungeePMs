@@ -33,7 +33,7 @@ In order to override Minecraft autocompletion on /msg and /tell commands and hav
 
 ## Configuration & Default language file:
 
-config.yml:
+### config.yml:
 ```yaml
 bungeePM:
   #This value is used to name the language file. You need to use a VALID BCP 47 Language Code.
@@ -46,7 +46,7 @@ bungeePM:
 ```
 
 
-messages_en.properties
+### messages_en.properties
 ```
 #Note that properties files doesn't directly support accented characters.
 #Please use this tool: https://www.branah.com/unicode-converter if you want to use them.
