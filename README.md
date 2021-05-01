@@ -3,20 +3,20 @@
 BungeePMs allows your players to use a private messaging system accross your bungeecord network flawlessly.
 
 
-Installation:
+## Installation:
 To install this plugin please put the file BungeePMsBungee-X.X-SNAPSHOT.jar in the plugins folder of your BungeeCord server.
 
 In order to override Minecraft autocompletion on /msg and /tell commands and have a bungeecord wise autocompletion of players, it is advised but not mandatory to put BungeePMsBukkit-X.X-SNAPSHOT.jar in the plugins folder of all your Spigot servers.
 
 
-Commands:
+## Commands:
 
 - /msg, /m, /w, /message <player> <message> : Send a private message to another player.
 - /r, /reply <message>  : Send a private message to the last player that sent you a private message.
 - /socialspy (<player>)  : Enable or disable message spying for you or another player.
 
 
-Permissions (They are all BUNGEECORD permissions):
+## Permissions (They are all BUNGEECORD permissions):
 
 - bungeepm.message : Allow the use of /msg, /m, /message
 - bungeepm.reply : Allow the use of /r, /reply
@@ -25,13 +25,13 @@ Permissions (They are all BUNGEECORD permissions):
 - bungeepm.chatcolor : Allow the use of colors in privates messages
 
 
-FAQ:
+## FAQ:
 
 - Are the socialspy players saved when the server restart ? : Yes they are. BungeePMs uses a SQLite DB File to saves all the players with socialspy enabled.
 - Why the jar file is so big ? : It's simply because SQLite is shaded into the jar at compilation because bungeecord does not provide this one by default. Actually the plugin in itself is not more than 30kb and is extremely lightweight.
 
 
-Configuration & Default language file:
+## Configuration & Default language file:
 
 config.yml:
 ```yaml
